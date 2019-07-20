@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+
+header {
+  background: #4610ce; 
+  color: #ffffff;
+  overflow: auto;
+  padding: 25px 15px;
+
+  .logo {
+    float: left;
+    font-size: 1.9rem;
+    font-family: 'Satisfy',
+    cursive;
+    transition: all .5s ease-in-out; 
+    &:hover{
+      color: $pink;
+      cursor: pointer;
+    }
+  }
+  nav {
+    float: right;
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      transition: all 0.5s ease-in-out;
+      margin-right: 15px;
+      text-transform: capitalize;
+      font-weight: 300;
+
+      &:hover {
+        color: rgb(75, 235, 54);
+      }
+      &.register-btn {
+        background-image: linear-gradient(to left bottom, #247bff, #738cfe, #9c9efe, #bcb2fe, #d6c8ff);
+        padding: 10px 25px;
+        text-transform: capitalize;
+        border-radius: 10px;
+        &:hover {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+/********** Media Quriess *************************/
+@media only screen and (max-width: 575.98px){
+
+  header {
+    background: #4610ce;
+    color: #ffffff;
+    overflow: auto;
+    padding: 25px 15px;
+
+    .logo {
+      float: left;
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+      font-family: 'Satisfy',
+        cursive;
+      transition: all .5s ease-in-out;
+
+      &:hover {
+       color: rgb(75, 235, 54);
+        cursor: pointer;
+      }
+    }
+
+    nav {
+      float: right;
+
+      a {
+        color: #ffffff;
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+        margin-right: 15px;
+        text-transform: capitalize;
+        font-weight: 300;
+
+        &:hover {
+         color: rgb(75, 235, 54);
+        }
+
+        &.register-btn {
+          background-image: linear-gradient(to left bottom, #247bff, #738cfe, #9c9efe, #bcb2fe, #d6c8ff);
+          padding: 10px 25px;
+          text-transform: capitalize;
+          border-radius: 10px;
+
+          &:hover {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-width: 768px){
+header {
+  background: #4610ce;
+  color: #ffffff;
+  overflow: auto;
+  padding: 25px 15px;
+
+  .logo {
+    float: left;
+    font-size: 1.9rem;
+    font-family: 'Satisfy',
+      cursive;
+    transition: all .5s ease-in-out;
+
+    &:hover {
+      color: rgb(75, 235, 54);
+      cursor: pointer;
+    }
+  }
+
+  nav {
+    float: right;
+
+    a {
+      font-size: 1.1rem;
+      position: relative;
+      top: 5px;
+      color: #ffffff;
+      text-decoration: none;
+      transition: all 0.5s ease-in-out;
+      margin-right: 15px;
+      text-transform: capitalize;
+      font-weight: 300;
+
+      &:hover {
+       color: rgb(75, 235, 54);
+      }
+
+      &.register-btn {
+        background-image: linear-gradient(to left bottom, #247bff, #738cfe, #9c9efe, #bcb2fe, #d6c8ff);
+        padding: 10px 25px;
+        text-transform: capitalize;
+        border-radius: 10px;
+
+        &:hover {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+}
+
+@media only screen and (min-width: 1024px){
+  header {
+    background: #4610ce;
+    color: #ffffff;
+    overflow: auto;
+    padding: 25px 15px;
+
+    .logo {
+      float: left;
+      font-size: 1.9rem;
+      font-family: 'Satisfy',
+        cursive;
+      transition: all .5s ease-in-out;
+
+      &:hover {
+        color: rgb(75, 235, 54);
+        cursor: pointer;
+      }
+    }
+
+    nav {
+      float: right;
+
+      a {
+        color: #ffffff;
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+        margin-right: 15px;
+        text-transform: capitalize;
+        font-weight: 300;
+
+        &:hover {
+          color: rgb(75, 235, 54);
+        }
+
+        &.register-btn {
+         background-image: linear-gradient(to left bottom, #247bff, #738cfe, #9c9efe, #bcb2fe, #d6c8ff);
+          padding: 10px 25px;
+          text-transform: capitalize;
+          border-radius: 10px;
+
+          &:hover {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+header {
+  background: #4610ce;
+  color: #ffffff;
+  overflow: auto;
+  padding: 25px 15px;
+
+  .logo {
+    float: left;
+    font-size: 1.9rem;
+    font-family: 'Satisfy',
+      cursive;
+    transition: all .5s ease-in-out;
+
+    &:hover {
+     color: rgb(75, 235, 54);
+      cursor: pointer;
+    }
+  }
+
+  nav {
+    float: right;
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      transition: all 0.5s ease-in-out;
+      margin-right: 15px;
+      text-transform: capitalize;
+      font-weight: 300;
+
+      &:hover {
+        color: rgb(75, 235, 54);
+      }
+
+      &.register-btn {
+        background-image: linear-gradient(to left bottom, #247bff, #738cfe, #9c9efe, #bcb2fe, #d6c8ff);
+        padding: 10px 25px;
+        text-transform: capitalize;
+        border-radius: 10px;
+
+        &:hover {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+}
+
+@media screen and (min-width: 1600px) {}
+
+@media screen and (min-width: 1900px) {}
+
+@media screen and (min-width: 2000px) {}
