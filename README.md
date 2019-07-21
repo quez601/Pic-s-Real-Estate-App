@@ -1,2 +1,2 @@
-# Starter-Kit-Vol-2
-Npm install everything.
+# Pics React App
+This is a react app i created for real estate
